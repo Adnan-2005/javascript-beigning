@@ -29,11 +29,32 @@ const user = [
     }
 ]
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+// course.courseInstructor[2]
 
+const {courseInstructor: Instructor} = course
+// console.log(courseInstructor);
+console.log(Instructor);
+
+//JSON STRUCTURE 
+// {
+//     "coursename": "js in hindi",
+//     "price": "999",
+//     "instructor": "hitesh"
+// }
+
+// [
+//     {},
+//     {},
+// ]
 

@@ -1,0 +1,7 @@
+innerText => yeh srif jo h1 tag mei likha hota hai usko print krta hai 
+innerContent => yeh h1 tag k ander jitna bhi tag lga rehta hain usko bhi print krta hai 
+innerHTML => yeh html tag ko bhi support krta hai  but agr inner content ya text lena hai toh is chij ko  suppot nhi krta 
+
+///queryselector
+
+1. document.queryselector => yeh h1 tag ko  select krta hai

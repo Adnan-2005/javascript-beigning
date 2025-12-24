@@ -4,4 +4,10 @@ innerHTML => yeh html tag ko bhi support krta hai  but agr inner content ya text
 
 ///queryselector
 
-1. document.queryselector => yeh h1 tag ko  select krta hai
+1. document.queryselector => yeh h1(parent element) tag ko  select krta hai
+
+document.queryselectorALL=> yeh nodelist provide krta hai 
+
+document.getElementByClass => yeh HTMLCOLLECTION provide krta hai 
+
+
